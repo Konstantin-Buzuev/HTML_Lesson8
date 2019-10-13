@@ -1,0 +1,5 @@
+Validator check:
+https://validator.w3.org/nu/?doc=http%3A%2F%2Fkttn.dx.am%2F
+Crossbrowser check:
+http://browsershots.org/requests/19621626
+

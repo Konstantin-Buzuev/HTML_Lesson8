@@ -1,0 +1,299 @@
+/* FONTS */
+/*Size, color, weigth, spacing, transform, decoration etc.*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    padding: 0;
+}
+/*Menu*/
+#menu-list .link {
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    font-size: 0.875em;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*Header*/
+.header{
+    /* Style for "Contact Us" */
+    color: #212121;
+    font-size: 3.875em;
+    font-weight: 300;
+}
+/*Contacts*/
+#contacts .state {
+    color: #212121;
+    font-size: 1.375em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#contacts .tag{
+    color: #6c6c6c;
+    font-size: 0.875em;
+    font-weight: 700;
+}
+#contacts .details{
+    font-size: 0.875em;
+    font-weight: 700;
+    color: #212121;
+}
+#contacts .address{
+    color: #6c6c6c;
+    font-size: 0.875em;
+    font-weight: 300;
+}
+/*Footer*/
+#footer h4 {
+    color: #6c6c6c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+#footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    letter-spacing: -1px;
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 22px;
+}
+#footer .information .link {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+}
+#footer .send {
+    color: #6c6c6c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    font-weight: 300;
+}
+#footer .copy .text {
+    color: #6c6c6c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+#footer .terms a {
+    color: #6c6c6c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    text-decoration: none;
+}
+/*POSITIONING*/
+/*padding, margin, border, float, flex, position, etc.*/
+.main-container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Menu*/
+.main-menu {
+    width: 100%;
+    padding-top: 7.785%;
+    padding-left: 7.174%;
+}
+.main-menu .logo {
+    float: left;
+}
+.main-menu .menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 7.174%;
+    padding-right: 7.174%;
+    text-align: right;
+}
+#menu-list {
+    list-style-type: none;
+    display: grid;
+}
+#menu-list li{
+    padding: 0 11px 6px;
+}
+/*Header*/
+.header{
+padding-left: 7.394%;
+padding-bottom: 4.1%;
+padding-top: 12.518%;
+} 
+/*Contacts*/
+#contacts{
+padding-top: 5.198%; 
+padding-left: 7.174%;
+padding-bottom: 8.931%;
+}
+#contacts .col-md-4{
+    min-height: 370px;
+    max-height: 370px;
+    min-width: 370px;
+    max-width: 370px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    }
+#contacts .block{
+    padding-top: 48px;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid #212121;
+}
+#contacts img{
+    padding-bottom: 34px;
+}
+/*Footer*/
+#footer{
+    padding-left: 7.101%;
+    padding-right: 7.101%;
+    
+    padding-bottom: 2.19%;
+}
+#footer .info{
+    margin-bottom: 4.319%;
+    justify-content: space-between;
+}
+#footer .copy{
+    justify-content: space-between;
+}
+#footer .info .col-md-4{
+    padding-top: 8.78%;
+}
+#footer .contact-us{
+    max-width: 221px;
+    max-height: 139px;
+}
+#footer h4{
+    margin-bottom: 1.756%; 
+}
+#footer p{
+padding-top: 3.646%;
+padding-bottom: 1.823%;
+margin-bottom: 0px;
+}
+#footer .left{
+float: left;
+}
+#footer .right{
+    float: left;
+}
+#footer ul{
+    padding-left: 0px;
+}
+#footer .list{
+list-style-type: none;        
+}
+#footer .subscribe{
+max-width: 337px;    
+}
+#footer .mail-container{
+position: relative;
+}
+#footer .mail{
+max-height: 48px;
+width: 100%;
+background-image: url(../img/input.svg);
+border: none;
+}
+#footer .send{
+position: absolute;
+right: 5px;
+top: 5px;
+width: 21px;
+height: 17px;
+border: none;
+background-color: #ffffff;
+background-image: url(../img/mail.png);
+}
+#footer .social-networks{
+    text-align: center;
+}
+#footer .terms{
+    text-align: left;
+}
+@media screen and (min-width: 768px) {
+    #footer .terms{
+        text-align: right;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .main-menu .menu{
+        padding-left: 7.174%;
+        text-align: left;
+    }
+    #menu-list li{
+        float: left;
+    }
+    #menu-list{
+        display: inline-block;
+        padding-left: 0px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    #footer .right{
+        float: right;
+    }
+}
+/* EFFECTS */
+@media screen and (min-width: 320px) {
+    /*Menu*/
+    .main-container{
+        background-color: #f5f5f5;
+    }
+    #contacts{
+        background-color: #ffffff;
+    }
+    #menu-list .active {
+        color: #212121;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        border-bottom: 0.1875em solid #212121;
+    }
+    #menu-list li .link:hover {
+        color: #212121;
+        border-bottom: 3px solid #212121;
+    }
+    #menu-list li:last-child a:hover {
+        border: 0;
+    }
+    /* Contact */
+    /*Footer*/
+    #footer{
+        background-color: #f7f7f7;
+    }
+    #footer .mail::placeholder{
+    padding-left: 5px;
+    }
+    #footer .send:hover{
+    cursor: pointer;    
+    }
+    #footer .information .link:hover{
+        text-decoration: underline;
+    }
+    #footer .terms .link:hover{
+        text-decoration: underline;
+    }
+
+
+}
